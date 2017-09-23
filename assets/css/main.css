@@ -1895,7 +1895,8 @@
 				font-size: 1.1em;
 			}
 
-			.icon.style2:hover {
+			.icon.
+:hover {
 				color: #f2849e;
 				border-color: #f2849e;
 			}
@@ -2730,23 +2731,23 @@
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #a46568;
+				background-color: #ed1b24;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #a68369;
+				background-color: #f57f27;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #5d8c9d;
+				background-color: #009cd7;
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #8e8d8f;
+				background-color: #a2a1a6;
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: #ed1b24;
+				background-color: #ffffff;
 			}
 
 			.tiles article.style6 > .image:before {
