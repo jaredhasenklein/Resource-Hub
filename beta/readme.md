@@ -25,23 +25,23 @@
 
 ## Todo
 ### Before launch
-- [ ] Favicons
+- [ ] Favicons #2
   - [ ] Make a favicon
   - [ ] Apply it to every page
-- [ ] Standardize meta info for each page
-- [ ] Create a LEGO timer (based on fll18.jaredhk.com/timer)
-- [ ] Add Google Analytics and Tag Manager to track clicks
-- [ ] Add Google AdSense
-- [ ] Add Robomats promotion where needed
-- [ ] Add evergreen/common resources to index (diversity, STIMS, etc.)
-- [ ] Change from beta directory to primary
-- [ ] Transfer private/systems to somewhere on this site (maybe)
-- [ ] Redirect old sites to appropriate pages on new site
-- [ ] Make project open source and add GitHub link to footer
-- [ ] Boostrap 3 and 4 are used. Figure out how to condense
-- [ ] Create `robots.txt`
-- [ ] Add contact form destination (currently posts to nowhere)
-- [ ] Last step: check all links and verbiage
+- [ ] Standardize meta info for each page #3
+- [ ] Create a LEGO timer (based on fll18.jaredhk.com/timer) #4
+- [ ] Add Google Analytics and Tag Manager to track clicks #5
+- [ ] Add Google AdSense #6
+- [ ] Add Robomats promotion where needed #7
+- [ ] Add evergreen/common resources to index (diversity, STIMS, etc.) #8
+- [ ] Change from beta directory to primary #9
+- [ ] Transfer private/systems to somewhere on this site (maybe) #10
+- [ ] Redirect old sites to appropriate pages on new site #11
+- [ ] Make project open source and add GitHub link to footer #12
+- [ ] Boostrap 3 and 4 are used. Figure out how to condense #13
+- [ ] Create `robots.txt` #14
+- [ ] Add contact form destination (currently posts to nowhere) #15
+- [ ] Last step: check all links and verbiage #16
 ### Longer term
 - [ ] Upgrade to Font Awesome 5
 - [ ] Create contributing guidelines
