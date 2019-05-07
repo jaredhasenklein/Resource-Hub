@@ -1,0 +1,107 @@
+<html>
+<head>
+  <link rel="stylesheet" href="../../assets/css/main.css">
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <title>FLL 2017 - Resource Hub</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free robotics resources for FIRST LEGO League (FLL). Scoring calculators and printables for FLL 2017 HYDRODYNAMICS">
+  <meta name="keywords" content="FLL,FIRST LEGO League,firstlegoleague,FIRST robotics,scoring calculator,calculator,STEM,STEAM,STEM education,resources">
+  <meta name="author" content="Resource Hub, Jared Hasen-Klein">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="manifest" href="assets/site.webmanifest">
+  <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#34345c">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-config" content="assets/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <style>
+  body {
+    background-image: url("../../assets/water.svg");
+    background-size: cover;
+  }
+</style>
+</head>
+<body>
+  <h1><b><a href="../../index.html">Resource Hub - Jared Hasen-Klein</a></b> <img height="10%" src="../../logos/programs/fll.svg"></img> <img height="10%" src="../../logos/games/fll2017.png"></img></h1>
+  <h2>FIRST LEGO League (FLL) 2017 - Hydrodynamics</h2>
+  <div class="alert alert-warning" role="alert">
+    <h4 class="alert-heading">Updates</h4>
+    <p>We've migrated to a new site. If anything is broken, please <a target="_blank" href="../../contact.html">let us know</a>.</p>
+  </div>
+
+<h3>Scoring Calculator</h3>
+<i>Use the calculator to calculate the values of the missions.</i>
+<ul><li> Use Google Sheets for best result (Google Account required).<a class="btn btn-success btn-sm" href="../../redirects/fll/2017/google.html"><i class="fa fa-google"></i> Make a copy of Google Sheets</a></li>
+  <li>Use Excel for offline <a class="btn btn-success btn-sm" href="../../redirects/fll/2017/excel.html"><i class="fa fa-file-excel-o"></i> Download Excel</a>
+    <li> and use on this site for no account or download required (experimental). <a class="btn btn-primary btn-sm" id="calcbtn" href="#load"><i class="fa fa-calculator"></i> Load calculator below</a></li></ul>
+<div id="calcHolder"></div>
+<h3>Printables</h3>
+<ul><li>Full Sheet Score Sheet <a class="btn btn-success btn-sm" href="../../redirects/fll/2017/fullsheet.html"><i class="fa fa-file-word-o"></i> Download DOCX</a></li>
+    <li>Half Sheet Score Sheet <a class="btn btn-success btn-sm" href="../../redirects/fll/2017/halfsheet.html"><i class="fa fa-file-pdf-o"></i> Download PDF</a></li></ul>
+  <h3>Game Test </h3>
+  <ul><li> Game Test <a class="btn btn-success btn-sm" href="../../redirects/fll/2017/gametest.html"><i class="fa fa-pencil"></i> Take test online</a></li></ul>
+  <h3>Tournament System</h3>
+  <div class="class=col-lg-10 col-lg">
+    <div class="alert alert-danger" role="alert">
+      <p>Our tournament system for 2017 is no longer in service. If you still wish to use the system, you may contact us and we can provide you with access to our out of service system.</p>
+    </div>
+  </div>
+  <ul><li>Use our automated scoring software <a class="btn btn-success btn-sm" disabled href><i class="fa fa-eye"></i> View Info</a></li></ul>
+  <h3>2:30 Timer</h3>
+  <ul><li>Online timer (opens in new tab) <a target="_blank" class="btn btn-success btn-sm" href="../../common/legotimer.html"><i class="fa fa-file-video-o"></i> Online Timer</a></li>
+    <li>Download .mp4 Timer <a class="btn btn-success btn-sm" href="../../redirects/common/legotimer.html"><i class="fa fa-download"></i> Download Timer</a></li></ul>
+    <h3>Practice Scoring System</h3>
+    <ul><li>Use online <a class="btn btn-primary btn-sm" id="practicebtn" href="#load"><i class="fa fa-trophy"></i> Load Practice System Below</a>
+      <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#practiceinfo" aria-expanded="false" aria-controls="collapseExample">
+        Show instructions <i class="fa fa-info-circle"></i>
+      </button>
+      <div class="collapse" id="practiceinfo">
+        <div class="card card-body">
+          If you would like to play a practice match with a referee, you can use this system. The form can be filled out with the link in step 1 or at the bottom of this page. Here's how it works:
+          <ol><li>Students <b>play the match</b></li>
+            <li>The "referee" (such as another student or coach) <b>fills out this easy form</b> on their smartphone or tablet (computer will work, too but it's not recommended)</li>
+            <li>On the first page of the form, <b>enter the email address</b> of a student or coach who would like to receive the score report</li>
+            <li><b>Check your email</b> to look for "FLL Score Report - Team ####" from jhasenklein@gmail.com</li>
+            <li><b>Review your score report</b> –– The score report is a detailed explanation of which matches you scored points in and how many points you earned total</li></ol>
+          </div>
+        </div>
+        <div id="practiceHolder"></div>
+      </li></ul>
+      <br><br>  <div class="container">
+        <div class="panel panel-default">
+          <div style="text-align: center;" class="panel-heading"><b>Resource Hub</b></div>
+          <div class="panel-body">
+            <div class="footer-copyright text-center py-3">© 2014-2019 <a href="https://jaredhk.com">Jared Hasen-Klein</a>
+              <br>All work on this website may be reused, modified, and distributed for educational purposes. For other uses, please contact me.
+            </div>
+          </div>
+          <div class="panel-footer"><samp>The contents of this website are not overseen, endorsed, or approved by FIRST® (<a href="http:firstinspires.org" target="blank">firstinspires.org</a>), The LEGO® Company (<a href="http:lego.com" target="blank">lego.com</a>), or any other mentioned companies and organizations. All trademarks are property of their respective trademark owners. Nothing on this site is official—you should always read the rules, Q&A, game updates, and other official documentation for the most accurate information.</samp></div>
+        </div>
+      </div>
+
+      <!--iframes-->
+      <script type="text/javascript">
+      $(function(){
+        $('#calcbtn').click(function(){
+          if(!$('#calc').length) {
+            $('#calcHolder').html('<iframe id="calc" width="900" height="900" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?cid=CA817E7A8DFB1568&resid=CA817E7A8DFB1568%2157245&authkey=AJdPtV6zp0kyEnY&em=2&wdAllowInteractivity=False&AllowTyping=True&wdHideHeaders=True&wdDownloadButton=True"></iframe>');
+          }
+        });
+      });
+      </script>
+      <script>
+      $(function(){
+        $('#practicebtn').click(function(){
+          if(!$('#practice').length) {
+            $('#practiceHolder').html('<iframe id="calc" width="900" height="900" frameborder="0" scrolling="yes" src="https://docs.google.com/forms/d/e/1FAIpQLSdt3Ph_T_DKSlml18cf6gM074RwF8TjlSqev9ZFYIPVvf_01Q/viewform"></iframe>');
+          }
+        });
+      });
+    </script>
+  </body>
+  </html>

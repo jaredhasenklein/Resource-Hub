@@ -1,0 +1,74 @@
+<html>
+<head>
+  <link rel="stylesheet" href="../../assets/css/main.css">
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <title>FRC 2017 - Resource Hub</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free robotics resources for FIRST Robotics Competiton (FRC). Scoring calculators, game tests, and printables for FRC 2017 STEAMWORKS">
+  <meta name="keywords" content="FLL,FIRST Robotics Competition,firstroboticscompetition,FIRST robotics,scoring calculator,calculator,STEM,STEAM,STEM education,resources">
+  <meta name="author" content="Resource Hub, Jared Hasen-Klein">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="manifest" href="assets/site.webmanifest">
+  <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#34345c">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-config" content="assets/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <style>
+  body {
+    background-image: url("../../assets/steam.png");
+    background-size: cover;
+  }
+</style>
+</head>
+<body>
+  <h1><b><a href="../../index.html">Resource Hub - Jared Hasen-Klein</a></b> <img height="10%" src="../../logos/programs/frc.svg"></img> <img height="10%" src="../../logos/games/frc2017.png"></img></h1>
+  <h2>FIRST Robotics Competition (FRC) 2017 - STEAMWORKS</h2>
+  <div class="alert alert-warning" role="alert">
+    <h4 class="alert-heading">Updates</h4>
+    <p>We've migrated to a new site. If anything is broken, please <a target="_blank" href="../../contact.html">let us know</a>.</p>
+  </div>
+  <h3>Scoring Calculator</h3>
+  <i>Use the calculator to calculate the values of the missions.</i>
+  <ul><li><b>Google Sheets (recommended)</b>: The calculator is designed for Google Sheets and best used on that platform. this requires a Google Account (free) and you'll need to make a fresh copy of the sheet if we post any updates. <a class="btn btn-success btn-sm" href="../../redirects/frc/2017/google.html" target="blank"><i class="fa fa-google"></i> Make a copy of Google Sheets</a></li>
+    <li><b>Excel download (best for offline)</b>: You can download the calculator and use it in Excel. This requires Microsoft Office (costs money if you don't already have the suite with Word, PowerPoint, etc.) and you'll need to download the file again if there are updates.  <a class="btn btn-success btn-sm" href="../../redirects/fll/2018/excel.html" target="blank"><i class="fa fa-file-excel-o"></i> Download Excel</a>
+      <li><b>Use on this site (beta)</b>: You can also use the calculator straight on this website. You don't need any accounts or software and won't need to update it. However, this is not perfected software and might break at times. Use with caution. <a class="btn btn-primary btn-sm" id="calcbtn" href="#load"><i class="fa fa-calculator"></i> Load calculator below</a></li></ul>
+  <div id="calcHolder"></div>
+  <h3>Game Test </h3>
+  <div class="class=col-lg-10 col-lg">
+    <div class="alert alert-danger" role="alert">
+      <p>Our game test provider for 2017 abruptly shut down their site. If you are in need of this game test, let us know and we can try and track it down.</p>
+    </div>
+  </div>
+  <ul><li> Game Test <a class="btn btn-success btn-sm" href="#" disabled><i class="fa fa-pencil"></i> Take test online</a></li></ul>
+        <div id="practiceHolder"></div>
+      </li></ul>
+      <br><br>  <div class="container">
+        <div class="panel panel-default">
+          <div style="text-align: center;" class="panel-heading"><b>Resource Hub</b></div>
+          <div class="panel-body">
+            <div class="footer-copyright text-center py-3">© 2014-2019 <a href="https://jaredhk.com">Jared Hasen-Klein</a>
+              <br>All work on this website may be reused, modified, and distributed for educational purposes. For other uses, please contact me.
+            </div>
+          </div>
+          <div class="panel-footer"><samp>The contents of this website are not overseen, endorsed, or approved by FIRST® (<a href="http:firstinspires.org" target="blank">firstinspires.org</a>), The LEGO® Company (<a href="http:lego.com" target="blank">lego.com</a>), or any other mentioned companies and organizations. All trademarks are property of their respective trademark owners. Nothing on this site is official—you should always read the rules, Q&A, game updates, and other official documentation for the most accurate information.</samp></div>
+        </div>
+      </div>
+
+      <!--iframes-->
+      <script type="text/javascript">
+      $(function(){
+        $('#calcbtn').click(function(){
+          if(!$('#calc').length) {
+            $('#calcHolder').html('<iframe id="calc" width="900" height="500" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?cid=CA817E7A8DFB1568&amp;resid=CA817E7A8DFB1568%2156815&amp;authkey=APWjYZhPctPkuvQ&amp;em=2&amp;wdAllowInteractivity=False&amp;wdHideGridlines=True&amp;wdHideHeaders=True&amp;allowtyping=True"></iframe>');
+          }
+        });
+      });
+      </script>
+  </body>
+  </html>
