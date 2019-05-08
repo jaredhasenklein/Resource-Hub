@@ -31,8 +31,8 @@
 - [ ] Standardize meta info for each page #3
 - [ ] Create a LEGO timer (based on fll18.jaredhk.com/timer) #4
 - [ ] Add Google Analytics and Tag Manager to track clicks #5
-- [x] Add Google AdSense (edit: code has been added. Waiting on it to activate)
-  - [ ] Wait for AdSense to activate. Adjust as needed
+- [x] Add Google AdSense
+  - [x] Wait for AdSense to activate. Adjust as needed
 - [ ] Add Robomats promotion where needed #7
 - [ ] Add evergreen/common resources to index (diversity, STIMS, etc.) #8
 - [ ] Change from beta directory to primary #9
