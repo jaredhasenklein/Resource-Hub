@@ -25,9 +25,6 @@
 
 ## Todo
 ### Before launch
-- [ ] Favicons #2
-  - [ ] Make a favicon
-  - [ ] Apply it to every page
 - [ ] Standardize meta info for each page #3
 - [ ] Create a LEGO timer (based on fll18.jaredhk.com/timer) #4
 - [ ] Add Robomats promotion where needed #7
