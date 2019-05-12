@@ -30,18 +30,14 @@
   - [ ] Apply it to every page
 - [ ] Standardize meta info for each page #3
 - [ ] Create a LEGO timer (based on fll18.jaredhk.com/timer) #4
-- [ ] Add Google Analytics and Tag Manager to track clicks #5
-- [x] Add Google AdSense
-  - [x] Wait for AdSense to activate. Adjust as needed
 - [ ] Add Robomats promotion where needed #7
 - [ ] Add evergreen/common resources to index (diversity, STIMS, etc.) #8
-- [ ] Change from beta directory to primary #9
 - [ ] Transfer private/systems to somewhere on this site (maybe) #10
 - [ ] Redirect old sites to appropriate pages on new site #11
 - [ ] Make project open source and add GitHub link to footer #12
 - [ ] Boostrap 3 and 4 are used. Figure out how to condense #13
 - [ ] Create `robots.txt` #14
-- [x] Add contact form destination (currently posts to nowhere) #15
+- [ ] Change from beta directory to primary #9
 - [ ] Last step: check all links and verbiage #16
 ### Longer term
 - [ ] Upgrade to Font Awesome 5
