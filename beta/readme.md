@@ -33,7 +33,6 @@
 - [ ] Redirect old sites to appropriate pages on new site #11
 - [ ] Make project open source and add GitHub link to footer #12
 - [ ] Boostrap 3 and 4 are used. Figure out how to condense #13
-- [ ] Create `robots.txt` #14
 - [ ] Change from beta directory to primary #9
 - [ ] Last step: check all links and verbiage #16
 ### Longer term
