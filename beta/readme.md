@@ -18,8 +18,11 @@
 * Encourage users to look at other resources beyond their program
 
 ## Framework, layout, etc.
+#### CSS/JS
 * Twitter Bootstrap
+#### Links,  files, embeds
 * Links use `/redirects/program/year/page.html`
+* Generally, external links to other websites will not go via redirects. These don't need to be tracked as closely and also likely won't change on the other end. For example, linking to Techbrick will not have a redirect URL but linking to a Google Sheet calculator will.
 * Files are either stored on Google Drive and generated for download, One Drive and generated for download, or at `/files/program/year/page.html`
 * Calculators are embedded from One Drive and exposed via JS
 
@@ -32,7 +35,7 @@
 - [ ] Transfer private/systems to somewhere on this site (maybe) #10
 - [ ] Redirect old sites to appropriate pages on new site #11
 - [ ] Make project open source and add GitHub link to footer #12
-- [ ] Boostrap 3 and 4 are used. Figure out how to condense #13
+- [ ] Boostrap 3 and 4 are used. Figure out how to condense (maybe) #13
 - [ ] Change from beta directory to primary #9
 - [ ] Last step: check all links and verbiage #16
 ### Longer term
