@@ -29,18 +29,16 @@
 ## Todo
 ### Before launch
 - [ ] Standardize meta info for each page #3
-- [ ] Create a LEGO timer (based on fll18.jaredhk.com/timer) #4
 - [ ] Transfer private/systems to somewhere on this site (maybe) #10
 - [ ] Redirect old sites to appropriate pages on new site #11
 - [ ] Make project open source and add GitHub link to footer #12
-- [ ] Bootstrap 3 and 4 are used. Figure out how to condense (maybe) #13
 - [ ] Last step: check all links and verbiage #16
 - [ ] Publishing: Change from beta directory to primary #9
 ### Longer term
 - [ ] Upgrade to Font Awesome 5
 - [ ] Create contributing guidelines
 - [ ] Add feedback buttons on each page (maybe)
-- [ ] Create universal email list for all programs (maybe)
 - [ ] Make future calculators not spreadsheet based (maybe)
 - [ ] Universal footer
 - [ ] Universal updates box for each program
+- [ ] Condense Bootstrap 3/4, condense CSS
