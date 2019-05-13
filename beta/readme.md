@@ -26,6 +26,15 @@
 * Files are either stored on Google Drive and generated for download, One Drive and generated for download, or at `/files/program/year/page.html`
 * Calculators are embedded from One Drive and exposed via JS
 
+## Contributing
+I am a full time student and work on this project for the sole reason of the fact that I wish these resources existed when I was competing in robotics and I know they help others. I also take big inspiration from the resources that _were_ available to me (hey, Techbrick!) and want to continue that legacy. That being said, this is all a volunteer project that I can only work on when I have time. I would love your help. Here's how you can be helpful:
+### Reporting Bugs
+Whether you are technical or non-technical, you can report bugs you encounter on the site using the ([Issues](/../../issues) tab on GitHub. These issues can be typos, broken links, wrong point values on a calculator - anything!
+### Fixing Issues - Pull requests welcome!
+If you are technically inclined, I would love help dealing with the issues and anything else you see fit. Submit a pull request and I will gladly take a look. The framework for the site is very simple so if you know any HTML, you should be able to pick it up very quickly. If you need help, feel free to ask!
+### Creating content
+Currently, there is no way to directly get help with most of the resources on this site. That's because most resources are stored externally (e.g. on spreadsheets) which make them hard to collaborate on. However, if you have new resource ideas or problems with current resources, definitely open an issue so we can discuss. I am more than happy to work with you to try and find a way that you can help. I am also looking to decrease dependency on external services. So, if you are interested and looking for a big project, start playing with calculators, game tests, or anything else and figure out how to make them with just HTML, JS, and CSS!
+
 ## Todo
 ### Before launch
 - [ ] Redirect old sites to appropriate pages on new site #11
