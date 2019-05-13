@@ -28,10 +28,7 @@
 
 ## Todo
 ### Before launch
-- [ ] Standardize meta info for each page #3
-- [ ] Transfer private/systems to somewhere on this site (maybe) #10
 - [ ] Redirect old sites to appropriate pages on new site #11
-- [ ] Make project open source and add GitHub link to footer #12
 - [ ] Last step: check all links and verbiage #16
 - [ ] Publishing: Change from beta directory to primary #9
 ### Longer term
@@ -42,3 +39,4 @@
 - [ ] Universal footer
 - [ ] Universal updates box for each program
 - [ ] Condense Bootstrap 3/4, condense CSS
+- [ ] Transfer private/systems to somewhere on this site (maybe) #10
