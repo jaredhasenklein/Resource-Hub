@@ -1,8 +1,8 @@
 # Resource Hub - Jared Hasen-Klein
-#### This is the repository for the beta version of the Resource Hub. The current version of the site is at [hub.jaredhk.com](http://hub.jaredhk.com). The beta site is at [hub.jaredhk.com/beta](http://hub.jaredhk.com/beta).
+#### This is the repository for the new version of the Resource Hub, live as of May 17, 2019. The current version of the site is at [hub.jaredhk.com](http://hub.jaredhk.com).
 
 ## Purpose of transition
-* Currently, there are two ways the resources are stored:
+* Before the transition, there were two ways the resources were stored:
   1. On individual sites (e.g. fll18.jaredhk.com, deepspace.jaredhk.com)
   2. On "mini sites" of the Resource Hub (e.g. hub.jaredhk.com/sites/frc2016)
 * The mini-sites all look different and most of them look bad. This is because of a lack of CSS and time spent copying and pasting.
@@ -36,10 +36,7 @@ If you are technically inclined, I would love help dealing with the issues and a
 Currently, there is no way to directly get help with most of the resources on this site. That's because most resources are stored externally (e.g. on spreadsheets) which make them hard to collaborate on. However, if you have new resource ideas or problems with current resources, definitely open an issue so we can discuss. I am more than happy to work with you to try and find a way that you can help. I am also looking to decrease dependency on external services. So, if you are interested and looking for a big project, start playing with calculators, game tests, or anything else and figure out how to make them with just HTML, JS, and CSS!
 
 ## Todo
-### Before launch
-- [ ] Redirect old sites to appropriate pages on new site #11
-- [ ] Last step: check all links and verbiage #16
-- [ ] Publishing: Change from beta directory to primary #9
+### Redirects of old sites
 ### Longer term
 - [ ] Upgrade to Font Awesome 5
 - [ ] Create contributing guidelines
