@@ -1,4 +1,5 @@
 # Resource Hub - Jared Hasen-Klein
+[![Build Status](https://travis-ci.org/jaredhasenklein/Resource-Hub.svg?branch=master)](https://travis-ci.org/jaredhasenklein/Resource-Hub)
 #### This is the repository for the new version of the Resource Hub, live as of May 17, 2019. The current version of the site is at [hub.jaredhk.com](http://hub.jaredhk.com).
 
 ## Purpose of transition
