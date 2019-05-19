@@ -1,5 +1,12 @@
 # Resource Hub - Jared Hasen-Klein
-[![Build Status](https://travis-ci.org/jaredhasenklein/Resource-Hub.svg?branch=master)](https://travis-ci.org/jaredhasenklein/Resource-Hub)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![star this repo](http://githubbadges.com/star.svg?user=jaredhasenklein&repo=Resource-Hub&style=default)](https://github.com/jaredhasenklein/Resource-Hub)
+[![fork this repo](http://githubbadges.com/fork.svg?user=jaredhasenklein&repo=Resource-Hub&style=default)](https://github.com/jaredhasenklein/Resource-Hub/fork)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub issues](https://img.shields.io/github/issues/jaredhasenklein/Resource-Hub.svg)](https://github.com/jaredhasenklein/Resource-Hub/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/jaredhasenklein/Resource-Hub.svg)](https://GitHub.com/jaredhasenklein/Resource-Hub/graphs/contributors/)
+
+
 #### This is the repository for the new version of the Resource Hub, live as of May 17, 2019. The current version of the site is at [hub.jaredhk.com](http://hub.jaredhk.com).
 
 ## Purpose of transition
@@ -37,13 +44,13 @@ If you are technically inclined, I would love help dealing with the issues and a
 Currently, there is no way to directly get help with most of the resources on this site. That's because most resources are stored externally (e.g. on spreadsheets) which make them hard to collaborate on. However, if you have new resource ideas or problems with current resources, definitely open an issue so we can discuss. I am more than happy to work with you to try and find a way that you can help. I am also looking to decrease dependency on external services. So, if you are interested and looking for a big project, start playing with calculators, game tests, or anything else and figure out how to make them with just HTML, JS, and CSS!
 
 ## Todo
-### Redirects of old sites
-### Longer term
+### Long term
 - [ ] Upgrade to Font Awesome 5
-- [ ] Create contributing guidelines
-- [ ] Add feedback buttons on each page (maybe)
-- [ ] Make future calculators not spreadsheet based (maybe)
-- [ ] Universal footer
-- [ ] Universal updates box for each program
+- [ ] Create contributing guidelines (highish priority)
+- [ ] Universal footer (probably requires complicated templates)
+- [ ] Universal updates box for each program (same as footer, templates :yikes:)
 - [ ] Condense Bootstrap 3/4, condense CSS
-- [ ] Transfer private/systems to somewhere on this site (maybe) #10
+### Maybe/possible long term projects
+- [ ] Transfer private/systems to somewhere on this site #10
+- [ ] Add feedback buttons on each page
+- [ ] Make future calculators not spreadsheet based
