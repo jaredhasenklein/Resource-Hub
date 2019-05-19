@@ -1,5 +1,4 @@
 User-Agent: *
 Disallow:
-Disallow: /redirects
 Disallow: /files
 Disallow: /private
