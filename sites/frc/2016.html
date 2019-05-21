@@ -21,6 +21,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <title>FRC 2016 - Resource Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta charset="UTF-8">
   <meta name="description" content="Free robotics resources for FIRST Robotics Competiton (FRC). Scoring calculators, game tests, and printables for FRC 2016 STRONGHOLD">
   <meta name="keywords" content="FLL,FIRST Robotics Competition,firstroboticscompetition,FIRST robotics,scoring calculator,calculator,STEM,STEAM,STEM education,resources">
@@ -101,7 +102,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       $(function(){
         $('#calcbtn').click(function(){
           if(!$('#calc').length) {
-            $('#calcHolder').html('<iframe id="calc" width="98%" height="900" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?cid=CA817E7A8DFB1568&amp;resid=CA817E7A8DFB1568%2141606&amp;authkey=ACL1Amrc6AdnQoM&amp;em=2&amp;wdAllowInteractivity=False&amp;AllowTyping=True&amp;wdHideGridlines=True&amp;wdHideHeaders=True"></iframe>');
+            $('#calcHolder').html('<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" id="calc" src="https://onedrive.live.com/embed?cid=CA817E7A8DFB1568&amp;resid=CA817E7A8DFB1568%2141606&amp;authkey=ACL1Amrc6AdnQoM&amp;em=2&amp;wdAllowInteractivity=False&amp;AllowTyping=True&amp;wdHideGridlines=True&amp;wdHideHeaders=True"></iframe></div>');
           }
         });
       });
