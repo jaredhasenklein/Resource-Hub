@@ -19,8 +19,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <title>Resource Hub - Jared Hasen-Klein</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="assets/css/main.css">
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
@@ -45,6 +45,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
   <h1><b><a href="index.html"><img height="9%" src="logos/logo.svg">Resource Hub - Jared Hasen-Klein</a></b></h1>
+
+  <div class="alert alert-info" role="alert">
+    <h4 class="alert-heading">FRC 2020 GAME (INFINITE RECHARGE) COMING SOON! <i>(Countdown <span id="kickoffCountdown"></span>)</i></h4>
+    <p><b>The 2020 FIRST Robotics Competition game, INFINITE REACHARGE, is coming soon!</b> The game will be released
+    on January 4, 2020 - that's this Saturday! On Saturday, you can expect to see scoring calculators, game tests,
+  and more roll out at <a href="https://frc20.jaredhk.com">frc20.jaredhk.com</a>.
+<br><u>Watch Kickoff:</u>
+    <p>
+    Kickoff is on 1/4/20 10:30 AM EST (<span id="kickofflocaltime"></span>)</p>
+
+    <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#kickoffStream" aria-expanded="false" aria-controls="collapseExample">
+      Watch below <i class="fa fa-twitch"></i>
+    </button>
+    <div class="collapse" id="kickoffStream">
+      <div class="card card-body">
+        <iframe src="https://player.twitch.tv/?channel=firstinspires" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>  </div>
+        </div>
+      </div>
+
+
+<!-- <div class="collapse" id="kickoffStream">
+  <div class="card card-body">
+</div> -->
+</div>
+
   <div class="alert alert-danger" role="alert">
     <h4 class="alert-heading">UPDATES</h4>
     <p><b>NEW RESOURCE: <a href="judges.html">FIRST LEGO League Judge Hub</a>.</b> A collection of all of our resources
@@ -77,7 +102,7 @@ Subscribe to email updates:  <input name="email" placeholder="Email Address"/>
   <input type="submit" value="Subscribe" name="sub"/>
   </form></div>
         <div class="panel-body">
-          <div class="footer-copyright text-center py-3">© 2014-2019 <a href="https://jaredhk.com">Jared Hasen-Klein</a>
+          <div class="footer-copyright text-center py-3">© 2014-2020 <a href="https://jaredhk.com">Jared Hasen-Klein</a>
             <br>All work on this website may be reused, modified, and distributed for educational purposes. For other uses, please <a href="../../contact.html">contact me</a>.
             <br>Report bugs and contribute: <a class="github-button" href="https://github.com/jaredhasenklein/Resource-Hub/issues" data-icon="octicon-issue-opened" data-show-count="true" aria-label="Issue jaredhasenklein/Resource-Hub on GitHub">Issue</a>
           </div>
@@ -86,5 +111,41 @@ Subscribe to email updates:  <input name="email" placeholder="Email Address"/>
 </div>
     </div>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 4, 2020 10:30:00 EST").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Output the result in an element with id="demo"
+  document.getElementById("kickoffCountdown").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is over, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("kickoffCountdown").innerHTML = "Kickoff is here NOW!";
+  }
+}, 1000);
+</script>
+<script>
+    var date = new Date('1/04/2020 10:30:00 AM EST');
+    console.log(date.toString())
+    var options = { weekday: 'short', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', timeZoneName: 'short' };
+    document.getElementById("kickofflocaltime").innerHTML = date.toLocaleDateString("en-US", options);
+</script>
   </body>
   </html>
