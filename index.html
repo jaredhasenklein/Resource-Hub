@@ -46,39 +46,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
   <h1><b><a href="index.html"><img height="9%" src="logos/logo.svg">Resource Hub - Jared Hasen-Klein</a></b></h1>
 
-  <div class="alert alert-info" role="alert">
-    <h4 class="alert-heading">FRC 2020 GAME (INFINITE RECHARGE) COMING SOON! <i>(Countdown <span id="kickoffCountdown"></span>)</i></h4>
-    <p><b>The 2020 FIRST Robotics Competition game, INFINITE REACHARGE, is coming soon!</b> The game will be released
-    on January 4, 2020 - that's this Saturday! On Saturday, you can expect to see scoring calculators, game tests,
-  and more roll out at <a href="https://frc20.jaredhk.com">frc20.jaredhk.com</a>.
-<br><u>Watch Kickoff:</u>
-    <p>
-    Kickoff is on 1/4/20 10:30 AM EST (<span id="kickofflocaltime"></span>)</p>
-
-    <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#kickoffStream" aria-expanded="false" aria-controls="collapseExample">
-      Watch below <i class="fa fa-twitch"></i>
-    </button>
-    <div class="collapse" id="kickoffStream">
-      <div class="card card-body">
-        <iframe src="https://player.twitch.tv/?channel=firstinspires" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>  </div>
-        </div>
-      </div>
-
-
-<!-- <div class="collapse" id="kickoffStream">
-  <div class="card card-body">
-</div> -->
+<div class="alert alert-success d-flex flex-row">
+  <i class="fa fa-bullhorn mr-4 align-self-center"></i>
+  <div><h4 class="alert-heading">FRC 2020 RESOURCES NOW AVAILIBLE!</h4>
+  Resources for the 2020 FIRST Robotics Game, INFINITE RECHARGE, are ready now! Scoring calculators, game tests, and more are published and being updated at <a href="sites/frc/2020.html">frc20.jarehdk.com</a> now.
+<a href="sites/frc/2020.html" class="btn btn-success">Check it out now!</a>
+  </div>
 </div>
 
-  <div class="alert alert-danger" role="alert">
-    <h4 class="alert-heading">UPDATES</h4>
+<div class="alert alert-info d-flex flex-row">
+  <div><h4 class="alert-info">RESOURCE UPDATES</h4>
     <p><b>NEW RESOURCE: <a href="judges.html">FIRST LEGO League Judge Hub</a>.</b> A collection of all of our resources
       (including some new ones) for FLL judges to use at events. More content will be added there over the next few weeks.
       <a href="contact.html">Let us know</a> what you'd like to see.
       <br><b>REORGANIZATION:</b> We've reorganized resources to show the newest challenge for a given game on top. This allows for a better
       experience on mobile where it's harder/slower to scroll. As we add more and more resources, this has become more of an issue
       so we hope this helps with ease of navigation.
-      <a class="btn btn-success" href="contact.html">Give feedback</a></p> </div>
+      <a class="btn btn-success" href="contact.html">Give feedback</a></p>
+  </div>
+</div>
+
       <p style="text-align:center">
         <div class="embed-responsive embed-responsive-16by9">
         <iframe src="picker.html" class="embed-responsive-item"></iframe>
@@ -111,6 +98,32 @@ Subscribe to email updates:  <input name="email" placeholder="Email Address"/>
 </div>
     </div>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+<!-- Countdown, stream embed examples *********************************
+  <div class="alert alert-info" role="alert">
+    <h4 class="alert-heading">FRC 2020 GAME (INFINITE RECHARGE) COMING SOON! <i>(Countdown <span id="kickoffCountdown"></span>)</i></h4>
+    <p><b>The 2020 FIRST Robotics Competition game, INFINITE REACHARGE, is coming soon!</b> The game will be released
+    on January 4, 2020 - that's this Saturday! On Saturday, you can expect to see scoring calculators, game tests,
+  and more roll out at <a href="https://frc20.jaredhk.com">frc20.jaredhk.com</a>.
+<br><u>Watch Kickoff:</u>
+    <p>
+    Kickoff is on 1/4/20 10:30 AM EST (<span id="kickofflocaltime"></span>)</p>
+
+    <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#kickoffStream" aria-expanded="false" aria-controls="collapseExample">
+      Watch below <i class="fa fa-twitch"></i>
+    </button>
+    <div class="collapse" id="kickoffStream">
+      <div class="card card-body">
+        <iframe src="https://player.twitch.tv/?channel=firstinspires" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>  </div>
+        </div>
+      </div>
+
+
+
+</div>
+*****************************************************8 -->
+
+<!-- Countdown script........no need to load right now.
+
 <script>
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 4, 2020 10:30:00 EST").getTime();
@@ -141,11 +154,15 @@ var x = setInterval(function() {
   }
 }, 1000);
 </script>
+********************************************************* -->
+<!-- Time conversion script........no need to load right now.
+
 <script>
     var date = new Date('1/04/2020 10:30:00 AM EST');
     console.log(date.toString())
     var options = { weekday: 'short', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', timeZoneName: 'short' };
     document.getElementById("kickofflocaltime").innerHTML = date.toLocaleDateString("en-US", options);
 </script>
+********************************************************* -->
   </body>
   </html>
